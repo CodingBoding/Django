@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "143e5c64bdd8539d3169d3e7f278170c27afb847a8b468baf2650a919096f46f"
+            "sha256": "c262d6dbe28ff6dd57f6bba48fa293b6eab9a375f19de9e1120b9da984cf77b3"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.13"
+            "python_version": "3.11"
         },
         "sources": [
             {
@@ -32,6 +32,14 @@
             "markers": "python_full_version >= '3.8.0'",
             "version": "==3.2.2"
         },
+        "colorama": {
+            "hashes": [
+                "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
+                "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+            ],
+            "markers": "sys_platform == 'win32'",
+            "version": "==0.4.6"
+        },
         "dill": {
             "hashes": [
                 "sha256:3ebe3c479ad625c4553aca177444d89b486b1d84982eeacded644afc0cf797ca",
@@ -46,6 +54,7 @@
                 "sha256:ff1b61005004e476e0aeea47c7f79b85864c70124030e95146315396f1e7951f"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.10'",
             "version": "==5.0.6"
         },
         "django-tastypie": {
@@ -93,6 +102,7 @@
                 "sha256:5abd5c2228e0e5e2a4cb6d0b4fc1d1cef1e773d0be911412f4dd4fc1a1a440b7"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
             "version": "==2.5.5"
         },
         "pylint-plugin-utils": {
@@ -141,6 +151,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==0.12.5"
+        },
+        "tzdata": {
+            "hashes": [
+                "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd",
+                "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252"
+            ],
+            "markers": "sys_platform == 'win32'",
+            "version": "==2024.1"
         }
     },
     "develop": {}
